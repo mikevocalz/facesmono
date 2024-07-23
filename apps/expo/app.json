@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "FACES NY",
+    "slug": "facesny",
+    "version": "1.0.0",
+    "scheme": "facesny",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.fifth.faces"
+    },
+    "android": {
+      "package": "com.fifth.faces"
+    }
+  }
+}

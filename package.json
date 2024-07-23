@@ -1,0 +1,33 @@
+{
+  "name": "solito-with-tailwind",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/react": "^18.2.21",
+    "@types/react-native": "^0.73.0",
+    "eslint": "^9.7.0",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.5",
+    "turbo": "^2.0.9",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "native": "cd apps/expo && yarn start",
+    "web": "cd apps/next && yarn next"
+  },
+  "resolutions": {
+    "metro": "~0.80.9",
+    "metro-resolver": "~0.80.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-refresh": "^0.14.0",
+    "react-native-svg": "15.4.0",
+    "react-native-web": "~0.19.12",
+    "react-native-reanimated": "^3.14.0",
+    "moti": "0.29.0"
+  },
+  "packageManager": "yarn@4.1.0"
+}
